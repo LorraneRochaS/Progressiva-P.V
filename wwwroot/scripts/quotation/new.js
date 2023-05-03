@@ -121,6 +121,7 @@
 
         if ($(this).val() > 0)
             $('#VehicleYear').prop("disabled", false);
+            console.log('alguma coisa aqui');
     });
 
     $('#VehicleYear').change(function () {
@@ -128,6 +129,7 @@
 
         if ($(this).val() != '' && $(this).val() != null)
             $('#VehicleModelId').prop("disabled", false);
+            console.log('alguma coisa aqui tbm');  
     });
     
 
